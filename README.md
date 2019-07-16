@@ -2,18 +2,14 @@
 
 This neural network can classify based on the MNIST Fashion data set. 
 This program was created for the Secure and Private AI Scholarship Challenge from Udacity and Facebook
-
-
 To train the model run the fashion classifier file.
 
-To predict using the network:
+# Test out your network!
 
 %matplotlib inline
 %config InlineBackend.figure_format = 'retina'
 
 import helper
-
-# Test out your network!
 
 dataiter = iter(testloader)
 images, labels = dataiter.next()
